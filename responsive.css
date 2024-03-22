@@ -1,0 +1,332 @@
+@media(max-width: 768px){
+.menu{
+    display: none;
+}
+.first-article{
+    width: 100vw;
+}
+.container{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+.menu-btn{
+    display: inline-block;
+    width: 30px;
+    height: 20px;
+    position: relative;
+    cursor: pointer;
+    margin-top: 9px;
+}
+.menu-btn-line{
+    width: 100%;
+    height: 3px;
+    background-color: black;
+    position: absolute;
+    right: -13.5em;
+    transition: transform .3s ease;
+    
+}
+.menu-btn-line:nth-child(2){
+    top: 50%;
+    transform: translateY(-50%);
+}
+.menu-btn-line:nth-child(3){
+    bottom: 0;
+}
+
+.container h1{
+    
+    justify-content: center;
+}
+.first-article{
+    width: 100vw;
+}
+.button{
+ display: none;
+}
+.img span{
+    display: none;
+}
+.first-article img{
+    width: 100vw;
+    height: 15em;
+    border-radius: 0;
+    position: absolute;
+    left: 0;
+    top: 4.5em;
+}
+.first-article p, .first-article span{
+    font-size: 2em;
+    position: absolute;
+    left: 0;
+    top: 8em;
+    color: white;
+    font-style: italic;
+
+}
+.first-article span{
+    display: none;
+}
+.first-article .button{
+display: none;
+}
+h2{
+    font-size: 2em;
+    font-family: 'arial';
+    font-style: italic;
+    position: absolute;
+    left: -200px;
+    top: 9em;
+    
+}
+
+/* second article */
+.second-article{
+    position: relative;
+    top: 25em;
+    left: -172px;
+    width: 147vw;
+    
+}
+.second-article img{
+    width: 98vw;
+    border-radius: 10px;
+}
+.second-article p, .second-article span{
+    display: grid;
+    
+
+}
+.second-article p{
+    position: absolute;
+    left: -19em;
+    top: 15em;
+    width: 300px;
+    font-size: 18px;
+}
+.second-article span{
+    position: absolute;
+    font-size:25px;
+    left: 6.4em;
+}
+.inner-second-article .read-more {
+    position: absolute;
+    top: 38em;
+    height: 20px;
+    font-size: 10px;
+    transform: translateX(-3em);
+}
+/* third-article */
+.third-article{
+    position: relative;
+    top: 38em;
+    left: -172px;
+    width: 147vw;
+}
+.third-article img{
+    width: 98vw;
+    height: 28vh;
+    border-radius: 10px;
+}
+.third-article p, .third-article span{
+    display: grid;
+    
+
+}
+.third-article ol{
+    position: absolute;
+    left: -33.5em;
+    top: 16em;
+    width: 300px;
+    font-size: 18px;
+}
+.third-article li{
+    font-size: 17px;
+    width: 18em;
+}
+.third-article span{
+    position: absolute;
+    font-size:25px;
+    left: 8em;
+    top: 11em;
+    z-index: 99;
+    font-size: 20px;
+    width: 60%;
+    
+}
+.inner-third-article{
+    width: 360px;
+}
+.inner-third-article .read-more{
+    transform: translateX(8em);
+    height: 20px;
+    font-size: 10px;
+}
+/* fourth article */
+.fourth-article{
+    position: relative;
+    top: 63em;
+    width: 100vw;
+    
+    
+}
+.fourth-article img{
+    width: 98vw;
+    height: 28vh;
+    border-radius: 10px;
+    position: absolute;
+    left: -10.8em;
+
+}
+.fourth-article p, .fourth-article span{
+    display: grid;
+    
+
+}
+.fourth-article span{
+    position: absolute;
+    font-size:25px;
+    left: -0.5em;
+    top: 11em;
+   
+    
+    font-size: 20px;
+    
+}
+.fourth-article p{
+    position: absolute;
+    left: -29em;
+    top: 15em;
+    width: 300px;
+    font-size: 18px;
+    
+    
+}
+.inner-fourth-article .read-more {
+    position: absolute;
+    top: 35em;
+    transform: translateX(-1em);
+    height: 20px;
+    font-size: 10px;
+}
+/* about section */
+.main-about{
+    position: relative;
+    top: 80em;
+    left: -1em;
+    display: block;
+    width: 100vw;
+}
+
+.inner-about p{
+    width: 19em;
+    margin-top: 25px;
+}
+.description{
+    position: relative;
+    top: 80em;
+    left: -3em;
+    width: 400px;
+}
+/* featured */
+.featuredpost{
+    position: relative;
+    top: 94em;
+    left: -12em;
+    width: 500px;
+}
+/* project */
+.project{
+    position: relative;
+    top: 100em;
+    left: -8.5em;
+    width: 100vw;
+}
+.inner-txt span{
+    font-size: 15px;
+}
+.inner-txt p{
+    font-size: 12px
+}
+.inner-txt{
+    width: 250px;
+position: absolute;
+left: 15em;
+}
+/* project2 */
+.project2{
+    position: relative;
+    top: 100em;
+    left: -8.5em;
+    width: 100vw;
+}
+.inner-txt2 span{
+    font-size: 15px;
+}
+.inner-txt2 p{
+    font-size: 12px
+}
+.inner-txt2{
+    width: 250px;
+position: absolute;
+left: 15em;
+}
+/* contact */
+.contact{
+    position: relative;
+    top: 99em;
+    left: -8em;
+    
+}
+.contact2 .text{
+    width: 95vw;
+    height: 7vh;
+}
+.contact2 textarea{
+    width: 95vw;
+    
+}
+.button{
+    position: relative;
+    left: 8em;
+    top: 2em;
+}
+.main-last{
+    position: relative;
+   top: 190em;
+   left: 2em;
+   
+   
+}
+footer.main-last{
+    width: 310px;
+}
+.last-section{
+    width: 90vw;
+}
+.other1{
+    width: 100vw;
+}
+.other1 li:nth-child(3){
+    margin-right: 0;
+}
+
+.main-last .other1 li{
+    width: 60px;
+}
+ul.other1{
+    width: 310px;
+}
+.main-last .other{
+    position: absolute;
+    left: 20px;
+    top: 55px;
+}
+.copyright p{
+width: 340px;
+position: relative;
+left: -1em;
+}
+}
